@@ -1,0 +1,60 @@
+.presentation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    height: 64vh;
+    padding: 10%;
+    padding-left: 22%;
+
+img{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right : 56%;
+    height : 100%;
+    z-index : 1;
+
+}
+
+.text{
+    z-index: 2;
+    text-align : end;
+    
+h1 {
+    margin: 0;
+}
+
+p{
+    margin-top : 0;
+
+}
+
+}
+
+}
+
+@media (min-width : 1040px) {
+
+    .presentation {
+        display : flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 80vh;
+        padding: 0 10%;
+
+        img{
+            position: static;
+            z-index: 1;
+            
+        }
+
+        .text{
+            margin-top: 6%;
+            width: 40%;
+            line-height: 20px;
+
+        }
+    }
+
+}

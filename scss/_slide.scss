@@ -1,0 +1,27 @@
+.slide {
+
+    img{
+    height: 30vh;
+    width: auto;
+    object-fit: cover; 
+    object-position: center;
+
+
+}
+
+}
+
+@media (min-width : 1040px) {
+
+    .slide {
+
+        img{
+            width: auto;
+            height: auto;
+            margin: 0;
+            
+        }
+    }
+
+
+}

@@ -1,0 +1,63 @@
+.signature {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 12%;
+    overflow: hidden;
+
+    .icon-title{
+        position: relative;
+
+        svg{
+            position : absolute;
+            left: -10%;
+        }
+    }
+
+    h2{
+        border-bottom : 1px solid;
+        padding : 10px;
+
+    }
+
+    img{
+    position: absolute;
+    width: 500px;
+    bottom : -8%;
+    right: -100px;
+    opacity: 0.15;
+    transform: rotate(-30deg);
+    z-index: -1;
+    max-width: 100vw;
+}
+
+}
+
+@media (min-width : 1040px) { 
+
+    .signature{
+        align-items: center;
+        padding : 4% 30%;
+
+        .icon-title {
+
+        svg {
+            left : -8%;
+            width: 25px;
+        }
+        }
+
+        h2{
+            align-self: center;
+            text-align: center;
+        }
+
+        img{
+            margin-bottom : -6%;
+            margin-right : 0;
+        }
+
+    }
+}

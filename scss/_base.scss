@@ -1,0 +1,51 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a, li, dd, dt {
+    list-style : none;
+    text-decoration: none;
+    font-size: $medium-size;
+}
+
+a, li, dd, dt, h1, h2, h3, p{
+    color: $primary-color;
+    font-family: "Roboto";
+}
+
+h1, h2{
+    font-size: $large-size;
+    font-weight: 300;
+    
+}
+h3{
+    font-size: $medium-size;
+    font-weight: 300;
+}
+
+p{
+    font-size: $small-size;
+}
+
+img{
+    max-width: 100%;
+}
+
+svg{
+    width: 20px;
+    fill: $primary-color;
+    opacity: 0.5;
+}
+
+span{
+    margin-right: 10px;
+}

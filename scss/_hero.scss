@@ -1,0 +1,14 @@
+#hero {
+    height: 60vh;
+    background-image: url('/imgs/header-image.jpg');
+    background-size: cover; 
+    background-position: start; 
+    background-repeat: no-repeat; 
+
+}
+
+@media (min-width : 1040px) {
+    #hero {
+        height: 100vh;
+    }
+}
